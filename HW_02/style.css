@@ -1,0 +1,74 @@
+img {
+  height: 400px;
+
+}
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Стили для header */
+header {
+    background-color: #d4c70c79;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Стили для основного содержимого */
+main {
+    padding: 20px;
+}
+
+/* Стили для заголовка */
+.headline {
+    color: #c53535;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Стили для подзаголовка */
+.subheader {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #1679e4;
+    text-decoration: none;
+}
+
+/* Стили для изображения панды */
+#panda {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+    box-shadow: 0 0 90px #0439caf8;
+}
+
+/* Стили для текста */
+.main-text, .idea {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Стили для intro*/
+.intro {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Стили для элемента футера */
+.footer-element {
+    background-color: #363333;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+}
