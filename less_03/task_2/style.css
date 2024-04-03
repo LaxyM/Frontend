@@ -1,0 +1,25 @@
+/* ваше решение здесь */
+
+button {
+    margin: 20px 20px;
+    height: 50px;
+    width: 80px;
+    font-size: 15px;
+    color: aliceblue;
+    border: none;
+    background-color: #778D45;
+    border-radius: 10px;
+}
+
+a {
+    padding: 16px;
+    color: aliceblue;
+    border: none;
+    background-color: #AEC09A;
+    border-radius: 10px; 
+}
+
+a:hover {
+    color: #000;
+}
+

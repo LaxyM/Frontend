@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    width: 500px;
+}
+
+body {
+    margin: 15px 20px ;
+}
+
+p {
+    background-color: rgb(226, 236, 199);
+    border: 2px solid red;
+}
+
+p > span {
+  border: 2px solid blue;  
+}
