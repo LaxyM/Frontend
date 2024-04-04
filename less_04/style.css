@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  width: 400vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url('imagebanner.jpeg'); 
+  background-size: cover; 
+  background-position: center;
+  height: 150px;
+}
+
+.header__section {
+  display: flex;
+  align-items: end;
+}
+
+.header_play {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.header_oscar {
+  display: flex;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.menu {
+  padding: 15px 50px;
+}
+
+p {
+  color: #eee5e5;
+  font-size: 20px;
+}

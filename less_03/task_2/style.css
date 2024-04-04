@@ -12,6 +12,7 @@ button {
 }
 
 a {
+    cursor: pointer;
     padding: 16px;
     color: aliceblue;
     border: none;
