@@ -5,15 +5,19 @@
 
 body {
    margin: 0;
+   background-image: url(online-cinema.jpg);
+   background-size: cover;
+   background-position: center;
 }
 
 main {
-   width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
    width: 100%;
-   min-height: 100px;
+   min-height: 80px;
    /* верх/ право + лево / низ */
    /* мешает элементам в header приживаться к краю */
    padding: 20px 0 15px;
@@ -78,4 +82,50 @@ main {
 .navContainer:hover .icon,
 .navContainer:hover .oscarHeading {
    opacity: 1;
+}
+
+.movie-card {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 100px;
+    text-align: center;
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rating {
+    position: absolute;
+    top: 20px;
+    margin: 20px;
+    padding: 13px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.green {
+    background-color: rgb(59, 179, 58);
+}
+
+.red {
+    background-color:rgb(255,0,0);
+}
+
+.ticket {
+    position: absolute;
+    left: 383px;
+    top: 616px;
+    padding: 5px;
+    background-color: rgb(255, 86, 0);
+    color: #fff;
+    font-size: 25px;
+}
+
+.info:hover .ticket {
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
 }
