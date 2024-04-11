@@ -124,7 +124,7 @@ main {
     font-size: 25px;
 }
 
-.info:hover .ticket {
+.ticket:hover {
     opacity: 0.7;
     transition: opacity 0.2s ease-in-out;
     cursor: pointer;

@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+.nav__header {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    padding: 15px 30px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.103);
+}
+/* ************************* Header Left ******************************* */
+.header_left {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.logo__title {
+    font-weight: bold;
+}
+
+/* ************************* Header Mid ******************************* */
+.header__mid {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__mid > a {
+    size: 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.header__mid > a:hover {
+    text-decoration: underline;
+}
+
+/* ************************* Header Right t****************************** */
+.header_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.text__headerRight > span {
+    font-size: 11px;
+}
+
+.fa-solid {
+    font-size: 32px;
+}
+
+/* ******************************  Main  ********************************** */
+
+main {
+    flex: 1;
+    background-color: #fff; 
+}
+
+/* ****************************  Background  ****************************** */
+.main__background {
+    position: relative;
+    width: auto;
+    height: 450px;
+    background-image: url(/media/images/shutterstock_1549382906.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding: 0px, 50px, 0px; */
+}
+
+.main__background > p {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    color: #f1eaea;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* *****************************   Grid Section    ************************* */
+
+.grid__showplace {
+    max-width: 980px;
+    margin: 0px auto;
+    text-align: start;
+    /* border: 5px solid #1de9b6; */
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    gap: 20px;    
+}
+
+
+.grid__card > img {
+    /* position: relative; */
+    height: 235px;
+    width: 315px;
+}
+
+.grid__card > h3 {
+    font-size: 17px;
+    color: #000000;
+}
+
+.grid__card > h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.log__autor {
+    font-size: 11px;
+    color:#454545;
+}
+
+
+.more__info {
+    font-size: 16px;
+    color: #000000;
+}
+
+.text__info {
+    display: grid;
+    max-width: 980px;
+    height: 120px;
+    margin: 0px auto;
+}
+
+.text__info > h2 {
+    display: flex;
+    align-items: end;
+}
+
+/* *****************************   Pre-Footer Section    ******************** */
+
+.pre__footer {
+    background-color: #F5F5F5;
+    padding: 0px 0px 30px;
+   
+}
+
+.point__up {
+    display: flex;
+    justify-content: end;
+     padding: 20px;
+}
+
+.fa-arrow-up {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #ec0d0d;
+}
+
+
+.info_prefooter {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.touren > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* *****************************  Footer   ****************************** */
+
+
+footer {
+    width: auto;
+    height: 440px;
+    background-color: #545454;
+    color: #fff;
+}
+
+
+/* ************  Logo / Text   ************/
+
+.logo_berlin{
+    display: flex;
+    padding: 20px;
+}
+
+.img_logoBerlin {
+    width: 120px;
+    height: 40px;
+}
+
+.last__text {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* *********************************************************************************** */
+/* 
+.fa-arrow-right {
+    position: absolute;
+    color: #fff;
+    font-size: 36px;
+    background-color: red;
+    z-index: 1;
+}   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.images > i {
+    size: 132px;
+} 
+
+
+.text__headerRight {
+    font-size: 11px;
+}  */
