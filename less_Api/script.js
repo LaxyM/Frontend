@@ -6,7 +6,7 @@ async function getFacts() {
     const res = await fetch('https://catfact.ninja/fact')
     const data = await res.json()
     box.textContent = data.fact
-    button.innerText = 'Another facts'
+    button.innerText = 'another facts'
 }
 
 button.addEventListener('click', getFacts)
